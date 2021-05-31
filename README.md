@@ -1,5 +1,7 @@
 # BP-Heart-Rate-Using-Pressure-Sensor
 
+Our aim of this project is to semiautomate the blood pressure and heart rate measuring device using an STM microcontroller and an mpr pressure sensor.
+
 ## Components used:
   1. Stm-32 microcontroller
   2. Honeywell MPRLS0300YG00001BB pressure sensor
