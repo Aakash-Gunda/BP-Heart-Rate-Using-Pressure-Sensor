@@ -2,14 +2,14 @@
 
 Our aim of this project is to semiautomate the blood pressure and heart rate measuring device using an STM microcontroller and an mpr pressure sensor.
 
-## Components used:
+# Components used:
   1. Stm-32 microcontroller
   2. Honeywell MPRLS0300YG00001BB pressure sensor
   3. Manually inflatable blood pressure cuff
   4. Silicone Tubing
   5. F-F wire jumpers
 
-## Steps to get BP/HR
+# Steps to get BP/HR
 
   1. <b> measure pressure values from the Honeywell sensor:</b> Use a 8.3 Kohm pull-up resistor, SCL and SDA are connected to PB-7 and PB-6 respectively("main.cpp").
   2. <b> Read the pressure data:</b> Read the pressure data from serial using a python code "PY-serial.py" 800 pressure samples are taken.
